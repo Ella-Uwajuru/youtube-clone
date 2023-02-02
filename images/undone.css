@@ -1,0 +1,119 @@
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5px;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background: #717171;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+
+.whole{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 30px;
+    }  
+    @media (max-width: 768px) {
+        .side-bar {
+          display: none;
+        }
+      }
+    .bb{
+        border-radius: 10px;
+    }
+    .ontop{
+        text-transform: capitalize;
+    }
+   
+    .ri-video-download-line:hover{
+        background-color: rgb(211, 211, 211);
+    }
+    .fa.fa-bell:hover {
+        background-color: rgb(211, 211, 211);
+    }
+    .fa.fa-user-circle:hover{
+        background-color: rgb(211, 211, 211);
+    }
+    .fa.fa-microphone:hover{
+        background-color: rgb(211, 211, 211);
+    }
+    .fa.fa-user-circle{
+        padding: 10px;
+        border-radius: 50px;
+    }
+    .fa.fa-bell{
+        padding: 10px;
+        border-radius: 50px;
+    }
+    .ri-video-download-line{
+        padding: 10px;
+        border-radius: 50px;
+    }
+    .fa.fa-microphone{
+        padding: 10px;
+        border-radius: 60px;
+    }
+    .home:hover{
+        background-color: rgb(211, 211, 211);
+    }
+    hr{
+        height: 1px;
+        background-color: #e5e5e5;
+    }
+    .bigger{
+        width: 295px;
+        height: 160px;
+        border-radius: 10px;
+    }
+    .pc{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    span{
+        display: block;
+        font-size: small;
+    }
+    .under{
+        margin-top: -10px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .tym{
+        color: aliceblue;
+        background-color: black;
+        width: fit-content;
+        border-radius: 3px;
+        padding: 2px;
+        position: relative;
+        top: -29px;
+        left: 245px;
+    }
+    .lower{
+        margin-top: 120px;
+        padding-top: 20px;
+        border-top: 1px solid lightgray;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    } 
+    dt{
+        text-transform: capitalize;
+    }
