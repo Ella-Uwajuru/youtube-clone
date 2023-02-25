@@ -36,8 +36,8 @@ margin-bottom: 30px;
     border-bottom-left-radius: 5pc;
     border-top-left-radius: 5pc;
     padding-left: 10px;
-    font-size: 20px;
-    height: 50px;
+    font-size: 16px;
+    height: 40px;
     width: 29pc;
 }
 .fa .fa-microphone{
@@ -45,10 +45,9 @@ margin-bottom: 30px;
     top: 2px;
 }
 .fa.fa-search{
-    position: relative;
-    top: 7px;
+   
     background-color: rgb(243, 239, 239);
-    height:50px ;
+    height:40px ;
     width: 100px;
     align-items: center;
     text-align: center;
@@ -131,6 +130,7 @@ margin-bottom: 30px;
 }
 
 .lower{
+    overflow-x: hidden;
     height: calc(100vh);
     overflow-y: scroll;
     border: 1px solid lightgray;
@@ -180,6 +180,7 @@ span{
 .below{
     display: grid;
     grid-auto-flow: column;
+    overflow-x: hidden;
 
 }
 body{
