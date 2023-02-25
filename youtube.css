@@ -36,13 +36,19 @@ margin-bottom: 30px;
     border-bottom-left-radius: 5pc;
     border-top-left-radius: 5pc;
     padding-left: 10px;
-    font-size: 15px;
-    height: 40px;
+    font-size: 20px;
+    height: 50px;
     width: 29pc;
 }
+.fa .fa-microphone{
+    position: relative;
+    top: 2px;
+}
 .fa.fa-search{
+    position: relative;
+    top: 7px;
     background-color: rgb(243, 239, 239);
-    height:40px ;
+    height:50px ;
     width: 100px;
     align-items: center;
     text-align: center;
@@ -90,6 +96,24 @@ margin-bottom: 30px;
 }
 
 
+
+.whole::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+.whole::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.whole::-webkit-scrollbar-thumb {
+  background: #888;
+ border-radius: 25px;
+}
+
+.whole::-webkit-scrollbar-thumb:hover {
+  background: #6a6565;
+}
 .whole{
     padding-right: 5px;
     margin-top:5px;
@@ -131,6 +155,7 @@ margin-bottom: 30px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    object-fit: cover;
 }
 span{
     display: block;
@@ -170,9 +195,9 @@ body{
      background: #fff;
      border-bottom-left-radius: 13px;
      border-bottom-right-radius: 13px;
+     
     }
     .box{
-
         transition-delay: 1s;
         transition: 1s;
     }
@@ -180,3 +205,11 @@ body{
         margin-top: 2px;
         display: none;
     }
+.side>nav>ul>li>span{
+    position: relative;
+    top: -6px;
+}
+.side>nav>dl>dt>dd>{
+    position: relative;
+    top: -5px;
+}
